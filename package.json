@@ -1,0 +1,43 @@
+{
+  "name": "bh-react-navigator",
+  "version": "0.1.0",
+  "description": "React Native Navigator ported to Web",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/babel --stage 0 src/ --out-dir lib/"
+  },
+  "author": "Bodhi5 Inc <info@bodhi5.com>",
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^3.7.4",
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.0.10",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.20",
+    "eslint": "^1.2.1",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-react": "^3.2.3",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bh5-js/react-navigator.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "navigator",
+    "navigation"
+  ],
+  "bugs": {
+    "url": "https://github.com/bh5-js/react-navigator/issues"
+  },
+  "homepage": "https://github.com/bh5-js/react-navigator"
+}
