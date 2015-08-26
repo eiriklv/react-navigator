@@ -4,11 +4,12 @@
   "description": "React Native Navigator ported to Web",
   "main": "index.js",
   "scripts": {
-    "prepublish": "./node_modules/.bin/babel --stage 0 src/ --out-dir lib/"
+    "prepublish": "./node_modules/.bin/babel --optional runtime --stage 0 src/ --out-dir lib/"
   },
   "author": "Bodhi5 Inc <info@bodhi5.com>",
   "license": "MIT",
   "dependencies": {
+    "babel-runtime": "^5.8.20",
     "immutable": "^3.7.4",
     "react": "^0.14.0-beta3",
     "react-dom": "^0.14.0-beta3"
