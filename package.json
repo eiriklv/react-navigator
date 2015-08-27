@@ -1,6 +1,6 @@
 {
   "name": "bh-react-navigator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native Navigator ported to Web",
   "main": "index.js",
   "scripts": {
